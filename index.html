@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>KDA Calculator</title>
+  <link rel="icon" type="image/png" href="img/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="script.js"></script>
+
+  
+  <div class="theme-toggle">
+    
+    <img src="img/theme.png" alt="Logo" onclick="toggleTheme()">
+  </div>
+
+  <div class="container">
+    <div class="kda-header">
+      <a href="index.html"> <img src="img/logo.png" alt="Logo" class="kda-logo"></a>
+    <h1>KDA Calculator</h1>
+    </div>
+    <div class="inputs">
+      <div>
+        <label for="kills">Kill</label>
+        <input type="number" id="kills" min="0" value="0">
+      </div>
+      <div>
+        <label for="deaths">Death</label>
+        <input type="number" id="deaths" min="0" value="0">
+      </div>
+      <div>
+        <label for="assists">Assist</label>
+        <input type="number" id="assists" min="0" value="0">
+      </div>
+    </div>
+    <button onclick="calculate()">Calculate</button>
+    <div class="results">
+      <div><strong>KDA Result:</strong> <span id="kda">-</span></div>
+    </div>
+
+    <p class="refresh-hint">Click on the logo to refresh the page.</p>
+  </div>
+
+
+
+<br>
+
+<div class="social-icons">
+  <a href="https://www.instagram.com/yigitat0" target="_blank">
+    <img src="img/insta_logo.png" alt="Instagram" />
+  </a>
+  <a href="https://www.tiktok.com/@yigitat0_" target="_blank">
+    <img src="img/tt_logo.png" alt="TikTok" />
+  </a>
+</div>
+
+
+
+<footer class="footer">
+  <p>© 2025 alpsins</p>
+</footer>
+
+
+</body>
+</html>
